@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": { "regexFilter": "https://www.youtube.com/shorts/*" },
+    "action":
+    {
+      "type": "redirect",
+      "redirect": { "regexSubstitution": "https://www.youtube.com/watch?v=" }
+    }
+  }
+]

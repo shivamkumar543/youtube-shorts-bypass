@@ -1,0 +1,19 @@
+{
+  "name": "YouTube Shorts Player Bypass",
+  "description": "Redirects YouTube Short URLs to the regular player.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [ "declarativeNetRequest", "declarativeNetRequestFeedback" ],
+  "host_permissions": [ "https://www.youtube.com/shorts/*" ],
+  "declarative_net_request":
+  {
+    "rule_resources":
+    [
+      {
+        "id": "shorts-bypass",
+        "enabled": true,
+        "path": "shorts-bypass.json"
+      }
+    ]
+  }
+}
