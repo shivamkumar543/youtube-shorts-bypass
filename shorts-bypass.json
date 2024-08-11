@@ -6,7 +6,7 @@
     "action":
     {
       "type": "redirect",
-      "redirect": { "regexSubstitution": "https://www.youtube.com/watch?v=" }
+      "redirect": { "regexSubstitution": "https://youtube.com/shorts/i0kDbrzekic?v=" }
     }
   }
 ]
